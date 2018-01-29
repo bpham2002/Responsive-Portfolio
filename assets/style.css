@@ -1,0 +1,176 @@
+body {
+    background-color: #dddddd;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+}
+
+#name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+.active {
+    background-color: #4aaaa5;
+}
+
+.container {
+    width: 970px;
+    margin: auto;
+    background-color: #dddddd;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom-width: 1.5px;
+    border-bottom-style: solid;
+    border-color: #4aaaa5;
+    margin: 20px 50px 30px 20px;
+}
+
+#myface {
+    width: 200px;
+    height: 200px;
+    margin: 0px 20px;
+    float: left;
+}
+
+#main-bio {
+    width: 650px;
+    float: left;
+    text-indent: 15px;
+    height: auto;
+    background-color: #ffffff;
+    margin: 10px 15px 10px 0px;
+}
+
+#bio-para {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 40px;
+}
+
+#inputcontact {
+    margin-left: 20px;
+}
+
+#message {
+    height: 100px;
+}
+
+#connect {
+    width: 270px;
+    height: 200px;
+    float: left;
+    background-color: #ffffff;
+    margin: 10px 0px 10px 35px;
+}
+
+#git-icon {
+    width: 70px;
+    height: 70px;
+    margin: 10px 5px 10px 20px;
+}
+
+#linkedln-icon {
+    width: 70px;
+    height: 70px;
+    margin: 10px 0px 10px 0px;
+}
+
+#overflow-icon {
+    width: 70Px;
+    height: 70px;
+    margin: 10px 20px 10px 5px;
+}
+
+footer {
+    padding: 1em;
+    color: #9e9ee2;
+    background-color: #666666;
+    clear: left;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    position: sticky;
+}
+
+@media screen and (min-width: 980px) {
+    body {
+        background-color: red;
+    }
+    #main-bio {
+        width: 450px;
+    }
+    #myface {
+        width: 400px;
+        height: 400px;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(163, 42, 42);
+    }
+    #main-bio {
+        width: 600px;
+        float: left;
+        margin-left: 40px;
+    }
+    #connect {
+        width: 600px;
+        margin-left: 40px;
+    }
+    .container {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: rgb(94, 17, 17);
+    }
+    #main-bio {
+        width: 270px;
+        float: left;
+        margin-left: 40px;
+    }
+    #connect {
+        width: 270px;
+        margin-left: 40px;
+    }
+    li a {
+        float: left;
+    }
+    .container {
+        width: 400px;
+    }
+}
